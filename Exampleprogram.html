@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jirapong Oonnom</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styleweb.css">
+</head>
+
+<body>
+
+
+  <div class="jumbotron text-center" style="background-color:#F0F8FF; margin-bottom: 0px;">
+    <h1 style="color:#61a7be; font-weight: bold;"><b>Jirapong Oonnom</b></h1>
+  </div>
+
+
+  <ul>
+    <li><a href="index.html" style="color:#ADD8E6; "><b>Home</b></a></li>
+    <li><a href="Aboutme.html" style="color:#ADD8E6; "><b>About Me</b></a></li>
+    <li><a  href="Work Experience.html" style="color:#ADD8E6; "><b>Work Experience</b></a></li>
+    <li><a class="active" href="Exampleprogram.html" style="color:#61a7be; "><b>Example program</b></a></li>
+  </ul>
+
+
+  <div class="container" style="margin-top:30px">
+    <h2 class="Topicstyle"><b>Example program</b></h2>
+    <div class="col-sm-8">
+      <h3>Temperature Converter</h3>
+      <table class="table">
+
+        <td>
+          <select id="Typetem1" name="Typetem1">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+          </select>
+          <input type="text" id="Temperature1" name="Temperature1">
+
+        </td>
+        <td>
+          <h3 class="center"> = </h3>
+        </td>
+        <td>
+          <select id="Typetem2" name="Typetem2">
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+            <input type="text" id="Temperature2" name="Temperature2">
+          </select>
+        </td>
+        <td></td>
+        <td class="Position"> <button class="button" onclick="Temperature()">Calculate</button>
+        </td>
+      </table>
+    </div>
+    <div class="col-sm-8">
+      <h3>Measurement Converter</h3>
+      <table class="table">
+
+        <td>
+          <select id="Measure1" name="Measure1">
+            <option value="Centimeters">Centimeters</option>
+            <option value="Millimeter">Millimeter</option>
+            <option value="Inches">Inches</option>
+          </select>
+          <input type="text" id="Measurement1" name="Measurement1">
+
+        </td>
+        <td>
+          <h3 class="center"> = </h3>
+        </td>
+        <td>
+          <select id="Measure2" name="Measure2">
+            <option value="Millimeter">Millimeter</option>
+            <option value="Centimeters">Centimeters</option>
+            <option value="Inches">Inches</option>
+            <input type="text" id="Measurement2" name="Measurement2">
+          </select>
+        </td>
+        <td></td>
+        <td class="Position"> <button class="button" onclick="Measurement()">Calculate</button>
+        </td>
+      </table>
+    </div>
+    <div class="col-sm-8">
+      <h3>BMI</h3>
+      <table class="table">
+
+        <td>
+          <input type="text" id="Weight" name="Weight" placeholder="Weight">
+          <input type="text" id="Height" name="Height" placeholder="Height">
+        </td>
+        <td>
+          <h3 class="center"> = </h3>
+        </td>
+        <td>
+          <input type="text" id="BMIranges" name="BMIranges" placeholder="BMI weight ranges" readonly>
+          <input type="text" id="ranges" name="ranges" placeholder="You are in the range" readonly>
+        </td>
+        <td class="Position"> <button class="button" onclick="Bmi()">Calculate</button>
+        </td>
+      </table>
+    </div>
+  </div>
+  <footer>
+    <h2 style="margin-left: 20px;">Contact</h2>
+    <p></p>
+    <p>Address: 362/5 Chongsarika Pattananikom Lopburi 15220 </p>
+    <p>Phone: 0959499080</p>
+    <p>Email: tong4564@hotmail.com</p>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

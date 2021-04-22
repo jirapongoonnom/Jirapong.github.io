@@ -1,0 +1,109 @@
+
+th {  width : 300px;
+ 
+
+}
+table,  td {
+    border: 0px solid black; 
+    padding: 0px;
+   text-align: Top left;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .fomatinputbox
+  {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .center {
+    margin-top: 45px;
+  }
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+  .button:hover {background-color:#363636}
+  .button:active {
+  background-color: #000000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Position{
+  text-align: right;
+  padding: 20px;
+}
+
+.Topicstyle { 
+  height: 50px;
+ 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+ 
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #F0F8FF;
+  color:  #000000;
+  text-decoration: none;
+
+
+}
+.active {
+  background-color: #F0F8FF;
+  font-weight: bold;
+}
+.textunit{
+  margin-top: 30px;
+}
+footer{
+  background-color:#F0F8FF;
+  margin-top: 100px;
+}
+p{
+  margin-left: 30px;
+}
+h2 {
+  background-color:#F0F8FF; 
+  color:#61a7be;
+  font-weight: bold;
+
+}
